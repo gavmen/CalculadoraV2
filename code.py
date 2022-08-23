@@ -9,7 +9,7 @@ tipo = input('Selecione o tipo de cálculo: ')
 # Testar se o valor inserido é válido.
 if tipo == '1' or tipo == '2' or tipo == '3' or tipo == '4':
 
-    # Criando funções ========================================================
+    # Criando funções
 
     # Dois primeiros números
     def inserirValor():
@@ -38,7 +38,7 @@ if tipo == '1' or tipo == '2' or tipo == '3' or tipo == '4':
                     print('Apenas sim ou nao')
             except ValueError:
                 print('Apenas sim ou nao')
-    # Funcões Contas ======================================================================
+    # Funcões Contas
 
     def soma():
         print('O resultado é:', sum(listaDeValores))
